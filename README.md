@@ -2,7 +2,7 @@
 
 This repository contains TensorFLow-based project for the paper:
 
-> Lianghao Xia, Chao Huang, Yong Xu and Jian Pei (2022). Multi-Behavior Sequential Recommendation with Temporal Graph Transformer, <a href=''>Paper in arXiv</a>, <a href=''>Paper in IEEE</a>. In IEEE Transactions on Knowledge and Data Engineering (TKDE), 2022.
+> Lianghao Xia, Chao Huang, Yong Xu and Jian Pei (2022). Multi-Behavior Sequential Recommendation with Temporal Graph Transformer, <a href='https://arxiv.org/pdf/2206.02687.pdf'>Paper in arXiv</a>, <a href='https://ieeexplore.ieee.org/abstract/document/9774907'>Paper in IEEE</a>. In IEEE Transactions on Knowledge and Data Engineering (TKDE), 2022.
 
 ## Introduction
 This paper proposes Temporal Graph Transformer (TGT) for multi-behavior recommendation. TGT divides users' multi-behavior interaction sequences into sub-sequences for fine-grained sequential pattern learning. It combines sequence-level self-attention with global-level graph transformer for the multi-typed interaction data.
