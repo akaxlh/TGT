@@ -45,7 +45,7 @@ def timeProcess(trnMats):
 	for i in range(len(trnMats)):
 		newData = np.maximum(((trnMats[i].data - mi) / (3600*args.slot)).astype(np.int32), 1)
 		# # tianchi
-		if args.data == 'tianchi' && args.data == 'IJCAI':
+		if args.data == 'tianchi' or args.data == 'IJCAI':
 			newData = trnMats[i].data - mi
 		maxTime = max(np.max(newData), maxTime)
 		trnMats[i] = csr_matrix((newData, trnMats[i].indices, trnMats[i].indptr), shape=trnMats[i].shape)
